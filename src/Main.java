@@ -19,7 +19,7 @@ public class Main {
 
         System.out.println();
         System.out.println("Задача №3 ");
-        for (int i = 2; i < 17; i = i + 2) {
+        for (int i = 0; i < 17; i = i + 2) {
             System.out.println(i);
         }
 
@@ -75,7 +75,7 @@ public class Main {
         System.out.println("Задача №10 (представляю второй вариант решения.(");
         result = 0;
         for (int i = 1; i < 11; i = i + 1) {
-           result = i * 2;
+            result = i * 2;
             System.out.println("2*" + i + "=" + result);
         }
     }
